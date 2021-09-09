@@ -27,7 +27,7 @@ public class HollowDiamondPattern {
             for (j = 0; j < mid; j++) {
                 for (int k = 1; k <= arr[i]; k++) {
                     if (k == mid - j || k == mid + j)
-                        System.out.print("&");
+                        System.out.print("$");
                     else
                         System.out.print(" ");
                 }
